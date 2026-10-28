@@ -100,7 +100,7 @@ button { color: inherit; font: inherit; }
 
 .about-section { padding: 115px 12.8%; background: var(--panel); display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 10.5%; }
 .about-image { position: relative; height: 530px; min-height: 400px; }
-.about-image-inner { position: absolute; inset: 0; background: linear-gradient(0deg,rgba(8,9,9,.22),transparent 60%), url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1300&q=85") center/cover; filter: saturate(.72); }
+.about-image-inner { position: absolute; inset: 0; background: linear-gradient(0deg,rgba(8,9,9,.22),transparent 60%), url("assets/avatar.jpg") center 34%/cover; filter: saturate(.92); }
 .about-image::after { content: ""; position: absolute; inset: 13px -13px -13px 13px; border: 1px solid rgba(232,168,122,.38); z-index: 0; pointer-events: none; }
 .about-image-caption { position: absolute; left: 20px; bottom: 17px; color: rgba(255,255,255,.75); font-size: 8px; z-index: 1; }
 .about-copy { max-width: 490px; }
